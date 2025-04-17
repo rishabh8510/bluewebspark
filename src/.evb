@@ -1,0 +1,72 @@
+import React from "react";
+
+const HeroSection = () => {
+  return (
+    <>
+      {/* ========================== Hero ================================ */}
+      <main className="container mx-auto px-4 mt-12 md:mt-24 text-center relative">
+        <div className="absolute w-full h-full top-0 left-0 pointer-events-none">
+          <div className="absolute top-1/4 -left-20 w-96 h-96 bg-[#0066FF]/10 rounded-full blur-[120px]"></div>
+          <div className="absolute top-1/4 -right-20 w-96 h-96 bg-[#0066FF]/10 rounded-full blur-[120px]"></div>
+        </div>
+
+        <div className="bg-[#1A2C4E]/30 px-4 md:px-6 py-2 rounded-full text-[#0066FF] inline-block mb-6 md:mb-8 backdrop-blur-sm text-sm font-light border border-[#3A4C6C]">
+          <span className="bg-gradient-to-r from-[#BFDFFF] via-[#339BFF] to-[#BFDFFF] bg-clip-text text-transparent">
+            Technology that Moves Your Business Forward
+          </span>
+        </div>
+
+        <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 md:mb-8 leading-tight">
+          We Build Software<br />
+          to Make Your Life &<br />
+          Business Easy!
+        </h1>
+
+        <p className=" text-gray-400 mt-4 md:mt-6 max-w-2xl mx-auto text-base md:text-lg font-light px-4">
+          Bluewebspark Technologies: Pioneering IT Software, AI, and Business Solutions Founded on Thursday, February 19, 2015.
+        </p>
+      </main>
+
+      {/* ========================== Hero2 ================================ */}
+      <section className="container mx-auto px-4 mt-20 md:mt-40">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+          <div className="text-white text-center md:text-left border-t border-b border-r border-[#3A4C6C]  rounded-tr-lg rounded-br-lg p-4">
+            <h2 className="text-3xl md:text-5xl font-bold leading-tight mt-5">
+              Built by <span className="bg-gradient-to-r from-[#007AFF] to-[#7AC8FF] bg-clip-text text-transparent">Brothers</span>,<br />
+              Driven by Purpose
+            </h2>
+            <p className="text-gray-400 mt-4 md:mt-6 text-xs md:text-sm font-">
+              Manish & Shekhar Both Brother Started Bluewebspark Technologies with Vision To Deliver IT Solutions
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {/* Manish Shukla Card */}
+            <div
+              className="relative bg-cover bg-center rounded-2xl h-72 md:h-80 overflow-hidden"
+              style={{ backgroundImage: "url('/src/assets/Profile.avif')" }}
+            >
+              <div className="absolute bottom-0 left-0 right-0 bg-[#1A2C4E]/40 backdrop-blur-sm p-2 md:p-2">
+                <h3 className="text-white text-xl font-semibold">Manish Shukla</h3>
+                <p className="text-white">Co-Founder & Director</p>
+              </div>
+            </div>
+
+            {/* Shekhar Shukla Card */}
+            <div
+              className="relative bg-cover bg-center rounded-2xl h-72 md:h-80 overflow-hidden"
+              style={{ backgroundImage: "url('/src/assets/Profile.avif')" }}
+            >
+              <div className="absolute bottom-0 left-0 right-0 bg-[#1A2C4E]/40 backdrop-blur-sm p-2 md:p-2">
+                <h3 className="text-white text-xl font-semibold">Shekhar Shukla</h3>
+                <p className="text-white">Co-Founder & Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default HeroSection;

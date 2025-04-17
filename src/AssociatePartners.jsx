@@ -3,19 +3,19 @@ import { FaLinkedin, FaInstagram, FaGlobe } from "react-icons/fa";
 const partners = [
   {
     name: "Think Aisle",
-    logo: "/src/assets/image 25.png",
+    logo: "src/assets/image 25.png",
   },
   {
     name: "Pinio",
-    logo: "/src/assets/Group 5.png",
+    logo: "src/assets/Group 5.png",
   },
   {
     name: "Nventurs",
-    logo: "/src/assets/Frame 5.png",
+    logo: "src/assets/Frame 5.png",
   },
   {
     name: "Trucking Techs",
-    logo: "/src/assets/Group 6.png",
+    logo: "src/assets/Group 6.png",
   },
 ];
 

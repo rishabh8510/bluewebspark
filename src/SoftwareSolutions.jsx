@@ -52,7 +52,7 @@ const SoftwareSolutions = () => {
               {/* Image + Text */}
               <div className="flex items-center gap-3 flex-1 min-w-[250px]">
                 <img
-                  src="./src/assets/image.png"
+                  src="src/assets/image.png"
                   alt="software"
                   className="rounded-md w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-cover"
                 />

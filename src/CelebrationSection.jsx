@@ -2,10 +2,10 @@ import React from "react";
 
 const CelebrationSection = () => {
   const images = [
-    "/src/assets/Img.png", // replace with your own hosted image if needed
-    "/src/assets/Img.png",
-    "/src/assets/Img.png",
-    "/src/assets/Img.png",
+    "src/assets/Img.png", // replace with your own hosted image if needed
+    "src/assets/Img.png",
+    "src/assets/Img.png",
+    "src/assets/Img.png",
   ];
 
   return (

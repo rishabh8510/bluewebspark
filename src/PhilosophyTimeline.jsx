@@ -57,7 +57,7 @@ const PhilosophyTimeline = () => {
                                     <div className="bg-gradient-to-r from-[#007AFF] to-[#7AC8FF] w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center font-bold text-white text-sm sm:text-base md:text-lg">
   <div className="flex items-center justify-center w-full h-full">
     <img
-      src="./src/assets/exam 1.png"
+      src="src/assets/exam 1.png"
       alt="Exam"
       className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 object-contain"
     />

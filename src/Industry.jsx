@@ -1,16 +1,16 @@
 import React from 'react';
 
 const industries = [
-  { icon: '/src/icons/logistics.png', title: "logistics" },
-  { icon: '/src/icons/jewellery.png', title: "Jewellery" },
-  { icon: '/src/icons/budget.png', title: "Finance & Banking" },
-  { icon: '/src/icons/dish.png', title: "FMCG" },
-  { icon: '/src/icons/manufacturing.png', title: "Manufacture" },
-  { icon: '/src/icons/house.png', title: "Real Estate" },
-  { icon: '/src/icons/protection.png', title: "Healthcare" },
-  { icon: '/src/icons/oil.png', title: "Oil & Gas" },
-  { icon: '/src/icons/automobile.png', title: "Automotive" },
-  { icon: '/src/icons/online-shop.png', title: "E-commerce & Retail" },
+  { icon: './src/icons/logistics.png', title: "logistics" },
+  { icon: './src/icons/jewellery.png', title: "Jewellery" },
+  { icon: './src/icons/budget.png', title: "Finance & Banking" },
+  { icon: './src/icons/dish.png', title: "FMCG" },
+  { icon: './src/icons/manufacturing.png', title: "Manufacture" },
+  { icon: './src/icons/house.png', title: "Real Estate" },
+  { icon: './src/icons/protection.png', title: "Healthcare" },
+  { icon: './src/icons/oil.png', title: "Oil & Gas" },
+  { icon: './src/icons/automobile.png', title: "Automotive" },
+  { icon: './src/icons/online-shop.png', title: "E-commerce & Retail" },
 ];
 
 const IndustrySolutions = () => {

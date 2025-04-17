@@ -34,19 +34,19 @@ const PartnerSection = () => {
             {/* Feature Boxes */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <div className="bg-[#120E1E] px-4 sm:px-6 py-2 sm:py-3 rounded-md flex items-center gap-2 text-xs sm:text-sm">
-                <span className="text-purple-400"><img src='/src/assets/p90 1.png'/></span>
+                <span className="text-purple-400"><img src='./src/assets/p90 1.png'/></span>
                 <span><strong>ZOHO</strong> – Smarter Business</span>
               </div>
               <div className="bg-[#120E1E] px-4 sm:px-6 py-2 sm:py-3 rounded-md flex items-center gap-2 text-xs sm:text-sm">
-                <span className="text-purple-400"><img src='/src/assets/p90 1.png'/></span>
+                <span className="text-purple-400"><img src='./src/assets/p90 1.png'/></span>
                 <span><strong>Shopify</strong> – Sell Seamlessly</span>
               </div>
               <div className="bg-[#120E1E] px-4 sm:px-6 py-2 sm:py-3 rounded-md flex items-center gap-2 text-xs sm:text-sm">
-                <span className="text-purple-400"><img src='/src/assets/p90 1.png'/></span>
+                <span className="text-purple-400"><img src='./src/assets/p90 1.png'/></span>
                 <span><strong>ERP Next</strong> – Process Perfected</span>
               </div>
               <div className="bg-[#120E1E] px-4 sm:px-6 py-2 sm:py-3 rounded-md flex items-center gap-2 text-xs sm:text-sm">
-                <span className="text-purple-400"><img src='/src/assets/p90 1.png'/></span>
+                <span className="text-purple-400"><img src='./src/assets/p90 1.png'/></span>
                 <span><strong>ODOO</strong> – Operate Smarter</span>
               </div>
             </div>
@@ -61,14 +61,14 @@ const PartnerSection = () => {
               {/* Top Row */}
               <div className="flex justify-center">
                 <img 
-                  src="/src/assets/image 1.png" 
+                  src="./src/assets/image 1.png" 
                   alt="ZOHO" 
                   className="w-full max-w-[120px] sm:max-w-[140px] md:max-w-[160px] h-auto object-contain"
                 />
               </div>
               <div className="flex justify-center">
                 <img 
-                  src="/src/assets/image 5.1.png" 
+                  src="./src/assets/image 5.1.png" 
                   alt="Shopify" 
                   className="w-full max-w-[120px] sm:max-w-[140px] md:max-w-[160px] h-auto object-contain"
                 />
@@ -77,14 +77,14 @@ const PartnerSection = () => {
               {/* Bottom Row */}
               <div className="flex justify-center">
                 <img 
-                  src="/src/assets/image 6.png" 
+                  src="./src/assets/image 6.png" 
                   alt="ERPNext" 
                   className="w-full max-w-[120px] sm:max-w-[140px] md:max-w-[160px] h-auto object-contain"
                 />
               </div>
               <div className="flex justify-center">
                 <img 
-                  src="/src/assets/image 2.png" 
+                  src="./src/assets/image 2.png" 
                   alt="Odoo" 
                   className="w-full max-w-[120px] sm:max-w-[140px] md:max-w-[160px] h-auto object-contain"
                 />

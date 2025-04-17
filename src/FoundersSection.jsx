@@ -25,7 +25,7 @@ const FoundersSection = () => {
           {/* Manish Card */}
           <div
             className="relative bg-cover bg-center rounded-xl aspect-square min-w-[160px] flex-1 max-w-[220px] overflow-hidden"
-            style={{ backgroundImage: "url('/src/assets/Profile.avif')" }}
+            style={{ backgroundImage: "url('./src/assets/Profile.avif')" }}
           >
             <div className="absolute bottom-0 left-0 right-0 bg-[#1A2C4E]/50 backdrop-blur-md p-3">
               <h3 className="text-white text-lg font-semibold">
@@ -38,7 +38,7 @@ const FoundersSection = () => {
           {/* Shekhar Card */}
           <div
             className="relative bg-cover bg-center rounded-xl aspect-square min-w-[160px] flex-1 max-w-[220px] overflow-hidden"
-            style={{ backgroundImage: "url('/src/assets/Profile.avif')" }}
+            style={{ backgroundImage: "url('./src/assets/Profile.avif')" }}
           >
             <div className="absolute bottom-0 left-0 right-0 bg-[#1A2C4E]/50 backdrop-blur-md p-3">
               <h3 className="text-white text-lg font-semibold">
